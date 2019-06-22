@@ -1,0 +1,35 @@
+
+
+.form-group{
+    text-align: left;
+    margin: auto;
+    width: 20rem;
+}
+.buttons{
+    
+    padding: 20px;
+    margin: 2em;
+    text-align: center;
+}
+#calculate-button{
+    size: 3em;
+    text-align: center;
+    border-color: black;
+    padding: 2em;
+
+}
+#menu-button{
+    margin: 4px;
+}
+
+#num1{
+    background: #ffcf87
+}
+#num2{
+
+    background: #ffcf87
+}
+#res{
+
+    background: #f9c87f
+}
