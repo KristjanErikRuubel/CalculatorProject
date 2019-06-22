@@ -25,7 +25,7 @@ returns json {"calculationResult": result}
 
 Supported Operands: "sum", "div", "sub", "prod"
 
-Cors is implemented on port 3000 so front end should be ran on port 3000.
+Cors is implemented on port 3000 so front end should run on port 3000.
 
 Time ran litte short, didnt have time to implement intregration tests.
 
