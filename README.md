@@ -14,14 +14,14 @@ Supported functions are
 request url = "http:localhost:8080/hello"
 returns Hello World!
 
-request url = "http:localhost:8080/calculate" with json body {"num1": <number one>,"op": <operand> ,"num2": <second number>}
-returns json {"calculationResult": <result>}
+request url = "http:localhost:8080/calculate" with json body {"num1": number one,"op": operand ,"num2": second number}
+returns json {"calculationResult": result}
 
 request url = "http:localhost:8080/getResults" 
 returns all previous calculations done in programm runtime
 
-request url = "http:localhost:8080/calculate?num1=<number one>&num2=<second number>&op=<operand>" 
-returns json {"calculationResult": <result>}
+request url = "http:localhost:8080/calculate?num1=numberone&num2=secondnumber&op=operand" 
+returns json {"calculationResult": result}
 
 Supported Operands: "sum", "div", "sub", "prod"
 
